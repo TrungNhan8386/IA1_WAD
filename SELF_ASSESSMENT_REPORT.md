@@ -1,6 +1,7 @@
 # Self-assessment — IA#1
 
-Submitted by: [MSSV] — [Họ và tên]
+Submitted by: 24127476 - Nguyễn Trần Trung Nhân  
+Repository: https://github.com/TrungNhan8386/IA1_WAD
 
 Total I claim: 90 / 100
 

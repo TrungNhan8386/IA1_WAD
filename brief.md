@@ -58,6 +58,7 @@ Kiểm tra lỗi trên từng item trước khi tính toán.
 6. `price` âm ném `RangeError`.
 7. `qty: 1.5` ném `RangeError`.
 8. `qty: 0` ném `RangeError`.
+9. `qty: âm` ném `RangeError`. 
 
 Test phải kiểm tra theo đặc tả (giá trị đầu vào → kết quả mong đợi), không
 kiểm tra chi tiết cài đặt bên trong.

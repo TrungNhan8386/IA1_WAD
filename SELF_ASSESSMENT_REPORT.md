@@ -9,7 +9,7 @@ Total I claim: 90 / 100
 |---|---|---|---|
 | Behaviour | 30 | 29 | `src/cart.js`; `npm test` 9/9 green. Worked example returns 467400 as a number (tests `the example from the slides`, `returns a number, not a string`); threshold (`shipping is free when the subtotal equals the threshold`); empty cart (`an empty cart returns 0, with no VAT and no shipping`); RangeError for negative price, qty 1.5, 0 and -2. Commit fb282a7. |
 | Tests | 20 | 18 | `test/cart.test.js`: 9 tests, one rule each; edge-case tests use `vatRate: 0` so each fails for one reason only. Commit e861501. |
-| Harness | 20 | 18 | `CLAUDE.md` (stack, commands, 4 "Never" rules); gate = `npm test` + `npm run format:check` (Prettier); `.github/workflows/ci.yml` runs both on every push. Commit aed9865. CI run: [dán link lần chạy xanh trên tab Actions] |
+| Harness | 20 | 18 | `CLAUDE.md` (stack, commands, 4 "Never" rules); gate = `npm test` + `npm run format:check` (Prettier); `.github/workflows/ci.yml` runs both on every push. Commit aed9865. CI run (green): https://github.com/TrungNhan8386/IA1_WAD/actions/runs/37949671667 |
 | Brief | 15 | 14 | `brief.md`: files it may touch, contract, RangeError cases, "Không thêm dependency", list of tests, definition of done. |
 | AI-LOG.md | 15 | 11 | `AI-LOG.md`: one entry per task with commit hashes; honest that Claude wrote the code, tests and harness, so few Changed/Rejected lines. |
 

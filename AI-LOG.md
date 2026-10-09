@@ -36,6 +36,6 @@
 `Tool:` Claude (Claude Code, qua Claude app).  
 `Asked for:` soạn bản nháp tự chấm theo rubric, có bằng chứng cho từng tiêu chí.  
 `Kept:` bảng và bằng chứng.  
-`Changed:` [điền nếu bạn chỉnh điểm]  
+`Changed:` không  
 `Rejected:` không.  
-`By hand:` [điền MSSV, họ tên và kiểm tra lại điểm]
+`By hand:` 24127476 - Nguyễn Trần Trung Nhân
